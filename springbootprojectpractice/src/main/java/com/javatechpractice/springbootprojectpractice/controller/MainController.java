@@ -15,6 +15,7 @@ public class MainController {
 	@RequestMapping("/contact")
 	public String contact() {
 		System.out.println("This is contact page");
+		System.out.println("Hello");
 		return "contact";
 	}
 }
