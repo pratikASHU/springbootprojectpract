@@ -11,4 +11,9 @@ public class UserController {
         System.out.println("This is home page");
         return "profile/user";
     }
+    @RequestMapping("/profile/home")
+    public String home() {
+        System.out.println("This is home page");
+        return "profile/home";
+    }
 }
