@@ -16,4 +16,10 @@ public class UserController {
         System.out.println("This is home page");
         return "profile/home";
     }
+
+     @RequestMapping("/profile/details")
+    public String details() {
+        System.out.println("This is details page");
+        return "profile/details";
+    }
 }
