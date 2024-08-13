@@ -25,7 +25,7 @@ public class UserController {
 
     @RequestMapping("/profile/user")
     public String user() {
-        System.out.println("This is user page");
+        
         return "profile/user";
     }
 
