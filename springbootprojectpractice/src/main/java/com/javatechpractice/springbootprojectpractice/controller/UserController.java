@@ -22,4 +22,10 @@ public class UserController {
         System.out.println("This is details page");
         return "profile/details";
     }
+
+    @RequestMapping("/profile/user")
+    public String user() {
+        System.out.println("This is details page");
+        return "profile/user";
+    }
 }
