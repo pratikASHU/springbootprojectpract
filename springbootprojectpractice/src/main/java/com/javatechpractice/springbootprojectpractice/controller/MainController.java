@@ -11,6 +11,12 @@ public class MainController {
 		System.out.println("This is home page");
 		return "home";
 	}
+
+	@RequestMapping("/profile")
+	public String profile() {
+		System.out.println("This is home page");
+		return "profile";
+	}
 	
 	@RequestMapping("/contact")
 	public String contact() {
